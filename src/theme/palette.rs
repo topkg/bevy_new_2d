@@ -14,4 +14,3 @@ pub const HEADER_TEXT: Color = Color::srgb(0.529, 0.529, 0.529);
 
 /// #4879c5
 pub const NODE_BACKGROUND: Color = Color::srgb(0.286, 0.478, 0.773);
-
