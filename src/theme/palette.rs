@@ -8,11 +8,11 @@ pub const BUTTON_PRESSED_BACKGROUND: Color = Color::srgb(0.286, 0.478, 0.773);
 
 /// #ebebeb
 pub const BUTTON_TEXT: Color = Color::srgb(0.925, 0.925, 0.925);
-
 /// #868686
 pub const LABEL_TEXT: Color = Color::srgb(0.529, 0.529, 0.529);
 /// #868686
 pub const HEADER_TEXT: Color = Color::srgb(0.529, 0.529, 0.529);
 
-/// #2b2c2e
-pub const SCREEN_BACKGROUND: Color = Color::srgb(0.169, 0.173, 0.184);
+/// #4879c5
+pub const NODE_BACKGROUND: Color = Color::srgb(0.286, 0.478, 0.773);
+
