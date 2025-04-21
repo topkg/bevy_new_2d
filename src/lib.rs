@@ -1,3 +1,6 @@
+// Support configuring Bevy lints within code.
+#![cfg_attr(bevy_lint, feature(register_tool), register_tool(bevy))]
+
 mod asset_tracking;
 pub mod audio;
 mod demo;

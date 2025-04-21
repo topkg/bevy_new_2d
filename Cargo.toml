@@ -48,6 +48,10 @@ default_features = false
 features = ["dev"]
 
 
+[lints.rust]
+# Mark `bevy_lint` as a valid `cfg`, as it is set when the Bevy linter is run.
+unexpected_cfgs = { level = "warn", check-cfg = ["cfg(bevy_lint)"] }
+
 [lints.clippy]
 # Bevy supplies arguments to systems via dependency injection, so it's natural for systems to
 # request more than 7 arguments, which would undesirably trigger this lint.
