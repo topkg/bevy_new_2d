@@ -69,7 +69,7 @@ nonstandard_macro_braces = "warn"
 
 
 # Compile with Performance Optimizations:
-# https://bevyengine.org/learn/quick-start/getting-started/setup/#compile-with-performance-optimizations
+# <https://bevyengine.org/learn/quick-start/getting-started/setup/#compile-with-performance-optimizations>
 
 # Enable a small amount of optimization in the dev profile.
 [profile.dev]
